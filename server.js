@@ -8,6 +8,4 @@ app.get('/api/dogs', (req, res) => {
 	res.send(dogs)
 });
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'));
-
-console.log('Server running!!');
+app.listen(8000, () => console.log('Dog api app listening on port 8000!'));
